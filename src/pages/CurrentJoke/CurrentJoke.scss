@@ -1,0 +1,19 @@
+.current_joke {
+  margin: 20px auto 0 auto;
+  width: fit-content;
+
+  .prev_btn {
+    padding: 3px 15px;
+    margin-bottom: 25px;
+    width: fit-content;
+    background: #afafaf;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--linear_transition);
+
+    &:hover {
+      background: #525252;
+    }
+  }
+}
